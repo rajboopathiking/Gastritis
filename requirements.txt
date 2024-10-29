@@ -11,3 +11,5 @@ matplotlib
 seaborn
 tensorflow
 scikit-learn
+opencv-python
+python-multipart
