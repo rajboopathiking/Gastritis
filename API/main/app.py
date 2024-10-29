@@ -73,5 +73,4 @@ async def predict(image: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail="Prediction error")
 
 if __name__ == "__main__":
-    port=os.getenv("PORT")
-    uvicorn.run("API.main.app:app",host="0.0.0.0", port=port, reload=True)
+    uvicorn.run("API.main.app:app",host="127.0.0.1", port=8000, reload=True)
