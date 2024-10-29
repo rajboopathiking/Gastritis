@@ -1,0 +1,13 @@
+scikit-learn
+tensorflow
+fastapi
+uvicorn
+fastapi_cors
+pytest
+httpx
+pandas 
+numpy 
+matplotlib
+seaborn
+opencv-python
+python-multipart
