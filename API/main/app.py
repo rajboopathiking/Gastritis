@@ -74,4 +74,4 @@ async def predict(image: UploadFile = File(...)):
 
 if __name__ == "__main__":
     PORT = int(os.environ.get("PORT", 8000))  # Default to 8000 if PORT not set
-    uvicorn.run("API.main.app:app", host="0.0.0.0", port=PORT, reload=True)
+    uvicorn.run("app:app", port=PORT, reload=True)
